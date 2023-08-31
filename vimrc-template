@@ -1,0 +1,26 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Plugins
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'vim-airline/vim-airline'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'Townk/vim-autoclose'
+Plugin 'xavierd/clang_complete'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" My settings
+set number
+set backspace=indent,eol,start
+syntax on
+let g:clang_library_path='/usr/local/lib/libclang.so.8.2'
+filetype on
+colorscheme desert
