@@ -9,6 +9,10 @@ Script(s) for setting my development environment the way I like it
 
 - git
 
+- gdb-9
+
+- vimrc and profile templates
+
 ## VSCode:
 
 - ms-vscode.cpptools
